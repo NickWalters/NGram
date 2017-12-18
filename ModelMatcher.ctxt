@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=ModelMatcher
+comment0.text=\r\n\ Report\ the\ average\ log\ likelihood\ of\ a\ test\ String\ occuring\ in\ a\ \r\n\ given\ Markov\ model\ and\ detail\ the\ calculated\ values\ behind\ this\ statistic.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=model\ testString
+comment1.target=ModelMatcher(MarkovModel,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ to\ initialise\ the\ fields\ for\ the\ log\ likelihood\ map\ for\ \r\n\ a\ test\ string\ and\ a\ given\ Markov\ model\ and\ \r\n\ the\ average\ log\ likelihood\ summary\ statistic\r\n\ @param\ MarkovModel\ model\ a\ given\ Markov\ model\ object\r\n\ @param\ String\ teststring\r\n
+comment2.params=logs\ ngramCount
+comment2.target=double\ averageLogLikelihood(java.util.HashMap,\ int)
+comment2.text=\ Helper\ method\ that\ calculates\ the\ average\ log\ likelihood\ statistic\r\n\ given\ a\ HashMap\ of\ strings\ and\ their\ Laplace\ probabilities\r\n\ and\ the\ total\ number\ of\ ngrams\ in\ the\ model.\r\n\ \r\n\ @param\ logs\ map\ of\ ngram\ strings\ and\ their\ log\ likelihood\r\n\ @param\ ngramCount\ int\ number\ of\ ngrams\ in\ the\ original\ test\ string\r\n\ @return\ average\ log\ likelihood\:\ the\ total\ of\ loglikelihoods\ \r\n\ \ \ \ divided\ by\ the\ ngramCount\r\n
+comment3.params=logs
+comment3.target=double\ totalLogLikelihood(java.util.HashMap)
+comment3.text=\ Helper\ method\ to\ calculate\ the\ total\ log\ likelihood\ statistic\r\n\ given\ a\ HashMap\ of\ strings\ and\ their\ Laplace\ probabilities\r\n\ and\ the\ total\ number\ of\ ngrams\ in\ the\ model.\r\n\ \r\n\ @param\ logs\ map\ of\ ngram\ strings\ and\ their\ log\ likelihood\r\n\ @return\ total\ log\ likelihood\:\ the\ sum\ of\ loglikelihoods\ in\ logs\ \r\n
+comment4.params=
+comment4.target=double\ getAverageLogLikelihood()
+comment4.text=\r\n\ @return\ the\ average\ log\ likelihood\ statistic\r\n
+comment5.params=ngram
+comment5.target=double\ getLogLikelihood(java.lang.String)
+comment5.text=\r\n\ @return\ the\ log\ likelihood\ value\ for\ a\ given\ ngram\ from\ the\ input\ string\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ Make\ a\ String\ summarising\ the\ log\ likelihood\ map\ and\ its\ statistics\r\n\ @return\ String\ of\ ngrams\ and\ their\ loglikeihood\ differences\ between\ the\ models\r\n\ The\ likelihood\ table\ should\ be\ ordered\ from\ highest\ to\ lowest\ likelihood\r\n
+numComments=7

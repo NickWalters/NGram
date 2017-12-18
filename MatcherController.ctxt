@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=MatcherController
+comment0.text=\ Create\ and\ manipulate\ Markov\ models\ and\ model\ matchers\ for\ lists\ of\ training\ data\ \r\n\ a\ test\ data\ String\ and\ generate\ output\ from\ it\ for\ convenient\ display.\r\n\ \r\n\ @author\ Nicholas\ Walters\ &\ Jesse\ Carter,\ 22243339\ and\ 22277029\r\n\ @version\ (30/05/2017)\r\n\r\n
+comment1.params=k\ trainingDataList\ testData
+comment1.target=MatcherController(int,\ java.util.ArrayList,\ java.lang.String)
+comment1.text=\ Generate\ models\ for\ analysis\r\n\ @param\ k\ order\ of\ the\ markov\ models\ to\ be\ used\r\n\ @param\ testData\ String\ to\ check\ against\ different\ models\r\n\ @throw\ unchecked\ exceptions\ if\ the\ input\ order\ or\ data\ inputs\ are\ invalid\r\n
+comment2.params=k\ filename\ testData
+comment2.target=MatcherController(int,\ java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Constructor\ accepting\ filename\ rather\ than\ preconstructed\ String\ array\r\n
+comment3.params=filename
+comment3.target=java.lang.String\ getFileContents(java.lang.String)
+comment3.text=\ @return\ a\ string\ containing\ all\ lines\ from\ a\ file\ \r\n\ ff\ file\ contents\ can\ be\ got,\ otherwise\ null\r\n\ This\ method\ should\ process\ any\ exceptions\ that\ arise.\r\n
+comment4.params=candidates
+comment4.target=ModelMatcher\ getBestMatch(java.util.ArrayList)
+comment4.text=\r\n\ @return\ the\ ModelMatcher\ object\ that\ has\ the\ highest\ average\ loglikelihood\r\n\ (where\ all\ candidates\ are\ trained\ for\ the\ same\ test\ string\r\n
+comment5.params=best
+comment5.target=java.lang.String\ explainBestMatch(ModelMatcher)
+comment5.text=\ @return\ String\ an\ *explanation*\ of\r\n\ why\ the\ test\ string\ is\ the\ match\ from\ the\ candidate\ models\r\n
+comment6.params=message
+comment6.target=void\ displayError(java.lang.String)
+comment6.text=\ Display\ an\ error\ to\ the\ user\ in\ a\ manner\ appropriate\r\n\ for\ the\ interface\ being\ used.\r\n\ \r\n\ @param\ message\r\n
+numComments=7

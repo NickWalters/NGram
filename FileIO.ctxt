@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=FileIO
+comment1.params=filename
+comment1.target=java.util.ArrayList\ readFile(java.lang.String)
+comment1.text=\r\n\ Read\ a\ file\ from\ the\ current\ directory\ into\ a\ list\r\n\ @param\ String\ filename\ name\ of\ the\ file\ to\ be\ read\r\n\ @throws\ FileNotFoundException,\ IOException\r\n\ @return\ ArrayList<String>\ of\ lines\ from\ the\ file\r\n
+numComments=2

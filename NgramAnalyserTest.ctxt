@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=NgramAnalyserTest
+comment0.text=\r\n\ Unit\ tests\ for\ the\ utility\ class\ MarkovModel.\r\n\ Do\ not\ change\ this\ file.\ \ Add\ new\ tests\ to\ the\ ProjectTest\ class.\r\n\r\n\ @author\ \ Arran\ Stewart\r\n\ @version\ May\ 2017\r\n
+comment1.params=analyser
+comment1.target=java.util.HashMap\ extractMap(NgramAnalyser)
+comment1.text=\ Use\ reflection\ to\ extract\ the\ ngram\ map,\ even\ though\ it's\ private.\r\n
+comment10.params=
+comment10.target=void\ testNgramCount()
+comment11.params=
+comment11.target=void\ fieldsUnaltered()
+comment2.params=
+comment2.target=void\ testSimpleOneGram()
+comment3.params=
+comment3.target=void\ testOneGram()
+comment4.params=
+comment4.target=void\ testNullString()
+comment5.params=
+comment5.target=void\ testEmptyString()
+comment6.params=
+comment6.target=void\ testInvalidNtooLow()
+comment7.params=
+comment7.target=void\ testInvalidNtooHigh()
+comment8.params=
+comment8.target=void\ testBiGrams()
+comment9.params=
+comment9.target=void\ testTriGrams()
+numComments=12

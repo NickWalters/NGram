@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=MarkovModel
+comment0.text=\r\n\ Construct\ a\ Markov\ model\ of\ order\ /k/\ based\ on\ an\ input\ string.\r\n\ \r\n\ @Jesse\ Carter\ 22277029\ &\ Nick\ Walters\ 22243339\r\n\ @Version\ 1\ 25th\ May\ '17\r\n
+comment1.params=k\ s
+comment1.target=MarkovModel(int,\ java.lang.String)
+comment1.text=\r\n\ Construct\ an\ order-k\ Markov\ model\ from\ string\ s\r\n\ @param\ k\ int\ order\ of\ the\ Markov\ model\r\n\ @param\ s\ String\ input\ to\ be\ modelled\r\n
+comment2.params=
+comment2.target=MarkovModel()
+comment3.params=
+comment3.target=int\ getK()
+comment3.text=\r\n\ @return\ order\ of\ this\ Markov\ model\r\n
+comment4.params=sequence
+comment4.target=double\ simpleEstimate(java.lang.String)
+comment4.text=\ Estimate\ the\ probability\ of\ a\ sequence\ appearing\ in\ the\ text\ \r\n\ using\ simple\ estimate\ of\ freq\ seq\ /\ frequency\ front(seq).\r\n\ @param\ sequence\ String\ of\ length\ k+1\r\n\ @return\ double\ probability\ of\ the\ last\ letter\ occuring\ in\ the\ \r\n\ context\ of\ the\ first\ ones\ or\ 0\ if\ front(seq)\ does\ not\ occur.\r\n
+comment5.params=sequence
+comment5.target=double\ laplaceEstimate(java.lang.String)
+comment5.text=\r\n\ Calculate\ the\ Laplacian\ probability\ of\ string\ obs\ given\ this\ Markov\ model\r\n\ @input\ sequence\ String\ of\ length\ k+1\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ @return\ String\ representing\ this\ Markov\ model\r\n
+numComments=7
